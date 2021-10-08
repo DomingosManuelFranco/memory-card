@@ -5,20 +5,15 @@ import Js from './img/js.png';
 const CardPicture = () => {
     return (
         <>
-            <div className="card">
-                <div className="card-header">
-                    <div className="card-header-title">
-                        CardPicture
+            <div className="container is-max-desktop">
+                <div className="card">
+                   
+                    <div className="card-image">
+                        <img src={Js} alt="Js logo"></img>
                     </div>
-                    <div className="card-header-icon">
-                        IconCard
+                    <div className="card-content">
+                        Javascript the Best computer language in the world.
                     </div>
-                </div>
-                <div className="card-image">
-                    <img src={Js} alt="Js logo"></img>
-                </div>
-                <div className="card-content">
-                    Javascript the Best computer language in the world.
                 </div>
             </div>
         </>

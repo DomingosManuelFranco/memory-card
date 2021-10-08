@@ -4,7 +4,7 @@ import ScoreBoard from './ScoreBoard';
 
 function App() {
   return (
-    <div className="container">
+    <div className="">
     <ScoreBoard />
     <CardPicture />
     </div>
