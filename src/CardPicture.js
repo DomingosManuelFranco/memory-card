@@ -10,9 +10,7 @@ const CardPicture = () => {
                     <div className="column is-2">
                         <div className="card">
                             <figure className="image is-square">
-                                <div className="">
-                                    <img src={Js} alt="Js logo"></img>
-                                </div>
+                                <img src={Js} alt="Js logo"></img>
                             </figure>
                             <div className="card-content">
                                 JS the Best computer language in the world.
