@@ -1,28 +1,26 @@
 import React from 'react'
-import Pictures from './img/';
 
 
-const CardPicture = ({ card }) => {
-    console.log(Pictures)
+
+
+const CardPicture = (props) => {
+    console.log(props)
     return (
         <>  
-        Pictures.map((picture) => (
             <div className="container has-text-centered">
                 <div className="columns is-mobile is-centered">
                     <div className="column is-2">
                         <div className="card">
                             <figure className="image is-square">
-                               
+                               {props.img}
                             </figure>
                             <div className="title is-4">
-                                Javascript
+                                {props.name}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        ))
-            
         </>
     )
 }
