@@ -12,7 +12,7 @@ const CardPicture = (props) => {
                     <div className="column is-2">
                         <div className="card">
                             <figure className="image is-square">
-                               {props.img}
+                               <img src={props.img} alt="pictures" />
                             </figure>
                             <div className="title is-4">
                                 {props.name}

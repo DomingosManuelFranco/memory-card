@@ -1,14 +1,14 @@
 import 'bulma/css/bulma.min.css';
 import CardPicture from './CardPicture';
 import ScoreBoard from './ScoreBoard';
-import CardMemory from './Data';
+import images from './images';
 
 function App() {
  
   return (
     <div className="">
     <ScoreBoard />
-    { CardMemory.map((card) => { 
+    { images.map((card) => { 
       
       return (
         <CardPicture image={card.img} name={card.language} key={card.id} />
