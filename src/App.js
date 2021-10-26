@@ -1,7 +1,7 @@
 import 'bulma/css/bulma.min.css';
 import CardPicture from './CardPicture';
 import ScoreBoard from './ScoreBoard';
-import images from '../src/img/images.js';
+import images from './Images.js';
 
 function App() {
  
