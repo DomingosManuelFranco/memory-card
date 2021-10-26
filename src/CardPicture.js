@@ -8,7 +8,7 @@ const CardPicture = (props) => {
     console.log(props)
     return (
         <>  
-            <div className="column is-3">
+            <div className="column is-2">
                 <div className="card">
                     <figure className="image is-square">
                         <img src={Reactjs} alt="pictures" />

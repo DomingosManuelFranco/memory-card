@@ -9,7 +9,7 @@ function App() {
     <div className="">
     <ScoreBoard />
     <div className="container has-text-centered">
-      <div className="columns">
+      <div className="columns is-multiline">
       { images.map((card) => { 
         
         return (

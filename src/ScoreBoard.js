@@ -1,5 +1,4 @@
 import React from 'react'
-import Angular from './img/angular.png';
 
 const ScoreBoard = () => {
     return (
@@ -8,7 +7,6 @@ const ScoreBoard = () => {
             <div className="navbar-end">
                 <h6>Score: </h6>
                 <h6 className="is-bellow">Best Score: </h6>
-                <img src={Angular} alt='angular' />
             </div>
             
         </div>
