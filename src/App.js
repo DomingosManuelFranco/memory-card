@@ -8,12 +8,16 @@ function App() {
   return (
     <div className="">
     <ScoreBoard />
-    { images.map((card) => { 
-      
-      return (
-        <CardPicture image={card.img} name={card.language} key={card.id} />
+    <div className="container has-text-centered">
+      <div className="columns">
+      { images.map((card) => { 
+        
+        return (
+          <CardPicture image={card.img} name={card.language} key={card.id} />
 
-    )})}
+      )})}
+      </div>
+    </div>
     </div>
   );
 }
